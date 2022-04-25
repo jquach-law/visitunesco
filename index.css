@@ -1,0 +1,45 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+input[type=text] {
+    /* float: right; */
+    width: 450px;
+    padding: 6px;
+    border: none;
+    /* margin-top: 12px; */
+    /* margin-right: 16px; */
+    font-size: 17px;
+}
+
+.search-container button {
+    /* float: right; */
+    padding: 6px;
+    /* margin-top: 12px;
+    margin-right: 16px; */
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
